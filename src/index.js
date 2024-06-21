@@ -11,7 +11,7 @@ import './style.css';
   const aboutBtn = document.querySelector("#about-btn");
   
   homeBtn.addEventListener("click", () => {
-  
+    
     contentElement.innerHTML = "";
   
     displayHomeContent(contentElement);
