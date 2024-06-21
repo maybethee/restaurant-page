@@ -1,9 +1,9 @@
+import './style.css';
 import ratatouille from './ratatouille.png';
 
 function displayContent(element) {
-  // const contentElement = document.querySelector("#content");
-
-  const homeDiv = document.createElement("div");
+  const homeDiv = document.createElement("div")
+  homeDiv.classList.add('home');
 
   const header = document.createElement("h1");
   header.innerHTML = `Remy`;

@@ -1,13 +1,11 @@
+import './style.css';
 import item1Img from './menu-item-1.png';
 import item2Img from './menu-item-2.png';
 import item3Img from './menu-item-3.png';
 
-
-
-function displayContent() {
-  const contentElement = document.querySelector("#content");
-
+function displayContent(element) {
   const menuDiv = document.createElement("div");
+  menuDiv.classList.add('menu');
 
   const header = document.createElement("h1");
   header.innerHTML = "Our Menu";
@@ -43,7 +41,7 @@ function displayContent() {
 
   menuDiv.append(header, menuItem1, menuItem2, menuItem3);
 
-  contentElement.append(menuDiv);
+  element.append(menuDiv);
 }
 
 export { displayContent } 

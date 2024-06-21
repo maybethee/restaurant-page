@@ -1,0 +1,62 @@
+header {
+  text-align: center;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+button {
+  height: 2rem;
+  background-color: beige;
+  border-right-style: none;
+  border-bottom-style: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(241, 241, 162);
+
+}
+
+button:last-of-type {
+  border-right-style: solid;
+}
+
+.home,
+.menu,
+.about {
+  border: 4px dotted black;
+  padding: 1rem;
+}
+
+.home,
+.menu,
+.about h1 {
+  text-align: center;
+}
+
+.home {
+  background-color: lightblue;
+}
+
+.menu {
+  background-color: lightcoral;
+}
+
+.menu img {
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  margin-top: 2rem;
+}
+
+.about {
+  background-color: lightgreen;
+}
+
+.about img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
