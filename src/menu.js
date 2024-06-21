@@ -39,9 +39,9 @@ function displayContent() {
   const item3Desc = document.createElement("p");
   item3Desc.innerHTML = `Duck breast sauté with orange sauce | Mixed vegetables`
 
-  menuItem3.append(header, itemImg3, item3Name, item3Desc);
+  menuItem3.append(itemImg3, item3Name, item3Desc);
 
-  menuDiv.append(menuItem1, menuItem2, menuItem3);
+  menuDiv.append(header, menuItem1, menuItem2, menuItem3);
 
   contentElement.append(menuDiv);
 }
